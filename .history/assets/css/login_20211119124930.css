@@ -1,0 +1,80 @@
+:root{
+     --primary-color: #4EA685;
+     --secondary-color: #57B894;
+     --black: #000000;
+     --white: #fff;
+     --gray: #efefef;
+     --gray-2: #757575;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.col{
+    width: 50%;
+}
+.align-item-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.form-wrapper{
+    width: 100%;
+    max-width: 28rem;
+}
+
+.form{
+    padding: 1rem;
+    background-color: var(--white);
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+.input-group{
+    position: relative;
+    width: 100%;
+    max-width: 1rem 0;
+}
+
+.input-group i{
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+    color: var(--gray-2);
+}
+
+.input-group input{
+    width: 100%;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    background-color: var(--gray-2);
+    border-radius: .5rem;
+}
