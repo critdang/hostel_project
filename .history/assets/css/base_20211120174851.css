@@ -340,14 +340,14 @@ body{
 @media (max-width: 740px) {
     .about__component-image img{
         width: 100%;
-        padding-right: 20%;
+        padding-right: 35%;
     }
 }
 /* lên Tablet */
 @media (max-width: 1113px) {
     .about__component-image img{
         width: 100%;
-        padding-right: 20%;
+        padding-right: 35%;
     }
 }
 /* Responsive - about__component */
@@ -361,17 +361,11 @@ body{
     .about__component-desc .about__component-item{
         text-align: center;
     }
-    .about__component-desc{
-        margin-bottom: 58px;
-    }
 }
 /* lên Tablet */
 @media (max-width: 1113px) {
     .about__component-desc .about__component-item{
         text-align: center;
-    }
-    .about__component-desc{
-        margin-bottom: 58px;
     }
 }
 

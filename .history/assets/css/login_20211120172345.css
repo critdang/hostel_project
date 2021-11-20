@@ -108,7 +108,7 @@ body{
 }
 .form button a {
     text-decoration: none;
-    color: var(--black);
+    color: black;
 }
 .form p {
     margin: 1rem 0;

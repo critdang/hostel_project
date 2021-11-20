@@ -142,6 +142,7 @@ body {
 }
 
 .about__component-image{
+    max-width: 450px;
 }
 .about__component-image img{
     width: 100%;

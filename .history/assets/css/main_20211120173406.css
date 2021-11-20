@@ -142,6 +142,7 @@ body {
 }
 
 .about__component-image{
+    max-width: 450px;
 }
 .about__component-image img{
     width: 100%;
@@ -236,7 +237,8 @@ body {
 .location__item-img img{
     object-fit: cover;
     object-position: center;
-    width: 100%;
+    width: 490px;
+    height: 537px;
 } 
 .about__container-item--img{
     display: flex;
