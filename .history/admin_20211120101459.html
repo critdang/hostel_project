@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="shortcut icon" href="/assets/img/images/logo-mb.png" type="image/png">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="./assets/css/grid_raw.css">
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="grid_admin.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-logo">
+            <img src="./assets/img/images/logo-lg.png" alt="Company log">
+            <div class="sidebar-close" id="sidebar-clos">
+                <i class='bx bx-left-arrow-alt'></i>
+            </div>
+        </div>
+        <div class="sidebar-user">
+            <div class="sidebar-user-info">
+                <img src="./assets/img/images/user-image.jpg" alt="User picture" class="profile-image">
+                <div class="slider-user-name">
+                    Anh Huy
+                </div>
+            </div>
+            <button class="btn btn-outline">
+                <i class='bx bx-log-out' ></i>
+            </button>
+        </div>
+        <!-- sidebar menu -->
+        <div class="sidebar-menu">
+            <li>
+                <a href="#" class="active">
+                    <i class='bx bx-home' ></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="active">
+                    <i class='bx bx-shopping-bag' ></i>
+                    <span>Sales</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="active">
+                    <i class='bx bx-bar-chart-alt-2' ></i>
+                    <span>Analyse</span>
+                </a>
+            </li>
+            <li class="sidebar-submenu">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-user-circle' ></i>
+                    <span>Account</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#">
+                            Edit profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Account settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Billing
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-submenu">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-category' ></i>
+                    <span>Project</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#">
+                            List
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Add project
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-submenu">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-category' ></i>
+                    <span>E-commerce</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#">
+                            List product
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Add product
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Orders
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="active">
+                    <i class='bx bx-mail-send' ></i>
+                    <span>Mail</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="active">
+                    <i class='bx bx-chat' ></i>
+                    <span>Chat</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="active">
+                    <i class='bx bx-calendar' ></i>
+                    <span>Calendar</span>
+                </a>
+            </li>
+            <li class="sidebar-submenu">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-cog' ></i>
+                    <span>Settings</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#" class="darkmode-toggle" id="darkmode-toggle">
+                            Darkmode
+                            <span class="darkmode-switch"></span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </div>
+        <!-- /sidebar menu -->
+
+    </div>
+    <!-- /Sidebar -->
+    <!-- Script -->
+    <!-- Apexchart -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- APP JS -->
+    <script src="admin.js"></script>
+</body>
+</html>
