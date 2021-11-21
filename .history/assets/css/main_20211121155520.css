@@ -250,10 +250,10 @@ body {
     padding: 10px;
 }
 .detail__book-item{
-    padding: 0 15px;
 }
 .detail__book-item input {
     cursor: pointer;
+    height: 30px;
 
     border: 1px solid #000;
     background-image:none;

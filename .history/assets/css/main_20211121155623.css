@@ -248,6 +248,7 @@ body {
 .detail__item-book--title {
     border-left: 1px solid #000;
     padding: 10px;
+    border-opacity: 0.6
 }
 .detail__book-item{
     padding: 0 15px;

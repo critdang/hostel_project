@@ -254,6 +254,7 @@ body {
 }
 .detail__book-item input {
     cursor: pointer;
+    height: 30px;
 
     border: 1px solid #000;
     background-image:none;
